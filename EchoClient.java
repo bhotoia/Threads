@@ -15,7 +15,7 @@ import java.io.*;
 public class EchoClient
 {
     //declear main class
-	public static void main(String[] args) thros IOException
+	public static void main(String[] args) throws IOException
 	{
                         //declear the socket for Client.
 			Socket socket = new Socket("127.0.0.1", 1234);
