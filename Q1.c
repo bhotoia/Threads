@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
    
     pthread_t sumNum;                                   //Initialize thread
     pthread_create(&sumNum, NULL, sumNumbers, NULL);    //Create thread
-    pthread_join(sumNum, NULL);                         //Join thread
+    pthread_join(sumNum, NULL);                         //Join threads
    
     printf("Sum of Numbers: %d\n", sum);
    
