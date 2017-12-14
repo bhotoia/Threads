@@ -37,7 +37,7 @@ public class EchoClient
                         //below is the loop
 			do
 			{
-                            //read the first line and store it to line variable.
+                            //read the first line and store it to line variable..
 				line = reader1.readLine();
                                
                                 //then output the line
