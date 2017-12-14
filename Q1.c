@@ -14,7 +14,7 @@ void *sumNumbers(void *vargp)   //Thread for sum
 {
     for(i = 0; i < size; i++)  
     {
-        sum = sum + data[i];        //Find sum of numbers for command line inputs
+        sum = sum + data[i];        //Find sum of numbers for command line inputs.
     }
 }
  
