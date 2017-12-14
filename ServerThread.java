@@ -50,7 +50,7 @@ public class ServerThread extends Thread {
                 while (!userInput.equals("."));
                 //finally, close the socket.
                 socket.close();
-                //auto created exception handling.
+                //auto created exceptions handling.
             } catch (IOException ex) {
                 Logger.getLogger(ServerThread.class.getName()).log(Level.SEVERE, null, ex);
             }
