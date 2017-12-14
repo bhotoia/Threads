@@ -1,7 +1,7 @@
 //Assignment 3 Question 1
 //OS Design and Systems Programming
 //December 15th 2017
-//Amrit Bhotoia and Yilitaer Yiliyaer
+//Amrit Bhotoia and Yilitaer Yiliyaerxi
 
 #include <stdio.h>
 #include <stdlib.h>
