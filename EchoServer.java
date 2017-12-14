@@ -1,3 +1,5 @@
+//OS Assignment 3 Question 2
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -19,8 +21,8 @@ public class EchoServer {
         //the start() method is created.
 	public void start() throws IOException {
                         //create a socket object using the ServerSocket class
-			ServerSocket socket = new ServerSocket(1234);
-                        System.out.println("Server ready");
+			ServerSocket socket = new ServerSocket(123);
+                        System.out.println("Server is ready s");
                         
                         //create a loop 
 			while (true) {
