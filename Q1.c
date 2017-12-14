@@ -29,7 +29,7 @@ void *maxNumbers(void *vargp)   //Thread for max
     }
 }
  
-void *minNumbers(void *vargp)   //Thread for min
+void *minNumbers(void *vargp)   //Thread for minimum
 {  
     min = data[1];
  
