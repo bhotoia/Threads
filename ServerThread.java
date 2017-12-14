@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author iltarix
+ * @author iltarix Amrit Bhotoia
  */
 
 //The serverThread class will extend pre-defined Thread methods.
@@ -25,7 +25,7 @@ public class ServerThread extends Thread {
 	Socket socket;
         
         //Running the thread.
-	public void run() {
+	public voi run() {
             try {
                 //create a bufferedReader object, that is used to read line
                 BufferedReader reader = null;
