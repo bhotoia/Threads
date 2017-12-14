@@ -8,7 +8,7 @@ import java.io.*;
 
 /**
  *
- * @author iltarix
+ * @author iltarix Amrit Bhotoia
  */
 public class EchoClient
 {
