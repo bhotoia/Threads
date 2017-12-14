@@ -1,3 +1,5 @@
+//Os Assignment 3 Q2
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -13,7 +15,7 @@ import java.io.*;
 public class EchoClient
 {
     //declear main class
-	public static void main(String[] args) throws IOException
+	public static void main(String[] args) thros IOException
 	{
                         //declear the socket for Client.
 			Socket socket = new Socket("127.0.0.1", 1234);
