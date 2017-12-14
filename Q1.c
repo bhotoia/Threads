@@ -33,6 +33,8 @@ void *maxNumbers(void *vargp)   //Thread for max
 void *minNumbers(void *vargp)   //Thread for min
 {  
     min = data[1];
+ 
+    printf("%d", temp);
    
      for(i=0; i<size; i++)
     {
