@@ -25,7 +25,7 @@ public class ServerThread extends Thread {
 	Socket socket;
         
         //Running the thread.
-	public voi run() {
+	public void run() {
             try {
                 //create a bufferedReader object, that is used to read line
                 BufferedReader reader = null;
