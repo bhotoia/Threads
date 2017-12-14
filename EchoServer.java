@@ -20,7 +20,7 @@ public class EchoServer {
         
         //the start() method is created.
 	public void start() throws IOException {
-                        //create a socket object using the ServerSocket class
+                        //create a socket object using the ServerSocket class.
 			ServerSocket socket = new ServerSocket(1234);
                         System.out.println("Server is ready");
                         
